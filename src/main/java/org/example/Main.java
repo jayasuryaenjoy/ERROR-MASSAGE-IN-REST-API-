@@ -12,6 +12,8 @@ public class Main {
     public static void main(String[] args) {
         Logger LOGGER = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
         int status=500;
+        int s=404;
+        int ss=400;
         String responseContent="{ \"data\": \"NO_RATING_POSSIBLE\" }";
         try{
             if (status == 404) {
